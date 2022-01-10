@@ -9,7 +9,133 @@
 }
 
 
-.heading{
+.heading{@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg {
+    padding: 30px;
+    background: #0A0A00;
+}
+
+.heads {
+    color: white;
+    font-family: Maiandra GD;
+    font-size: 30px;
+
+}
+
+.header {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: right;
+
+}
+
+.heading {
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    font-size: 60px;
+    color: white;
+    font-family: Snap ITC;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.tag {
+    font-family: Stylus BT;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.search {
+    border: 20px;
+    width: 20%;
+    height: 40px;
+    margin-left: 75%;
+    font-size: 0px;
+
+}
+
+.search_field {
+    height: 30px;
+    width: 90%;
+    font-size: 15px;
+    font-family: Jokerman;
+    font-weight: 200;
+    text-indent: 30px;
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+
+.search_btn {
+    border: none;
+    height: 30px;
+    width: 10%;
+    background-color: white;
+}
+
+.search_icon {
+    width: 30px;
+
+}
+
+.intro {
+    background-color: #D01110;
+    padding: 30px;
+    margin: 20px;
+}
+
+.intro-video {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: Maiandra GD;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.telugu-movies {
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.movie {
+    display: inline-block;
+    margin: 25px;
+    background-color: #D01110;
+    color: white;
+}
+
+.movie-name {
+    font-family: Elephant;
+    font-weight: 80;
+    margin: 10px;
+}
+
+.description {
+    font-family: High Tower Text;
+    font-size: 20px;
+    margin: 10px;
+}
     color: whitesmoke;
     width: 100%;
     height: 100px;
